@@ -1,0 +1,48 @@
+{
+	"variables": [],
+	"info": {
+		"name": "php-jwt-rest-authentication",
+		"_postman_id": "afbee162-ff15-bafd-abac-810366678d7c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/php-jwt-rest-authentication/login.php",
+			"request": {
+				"url": "http://localhost/php-jwt-rest-authentication/login.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\" : \"roy\",\n\t\"password\" :  \"roy\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/php-jwt-rest-authentication/users_list.php",
+			"request": {
+				"url": "http://localhost/php-jwt-rest-authentication/user_list.php",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJveSIsImV4cCI6MTY0MzAxODEyN30.hov-2FQ4Y22677lLM0nBowTXlCb_k-8N_apu71gixyY",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

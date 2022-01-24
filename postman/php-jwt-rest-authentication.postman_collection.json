@@ -1,0 +1,73 @@
+{
+	"id": "afbee162-ff15-bafd-abac-810366678d7c",
+	"name": "php-jwt-rest-authentication",
+	"description": "",
+	"order": [
+		"3cb53201-e807-9509-0a2e-34399907668e",
+		"1de9f7f5-e205-06ce-c54c-838613d2d56c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1643017310080,
+	"owner": "131323",
+	"public": false,
+	"requests": [
+		{
+			"id": "1de9f7f5-e205-06ce-c54c-838613d2d56c",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJveSIsImV4cCI6MTY0MzAxODEyN30.hov-2FQ4Y22677lLM0nBowTXlCb_k-8N_apu71gixyY\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJveSIsImV4cCI6MTY0MzAxODEyN30.hov-2FQ4Y22677lLM0nBowTXlCb_k-8N_apu71gixyY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/php-jwt-rest-authentication/user_list.php",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1643018756221,
+			"name": "http://localhost/php-jwt-rest-authentication/users_list.php",
+			"description": "",
+			"collectionId": "afbee162-ff15-bafd-abac-810366678d7c",
+			"responses": []
+		},
+		{
+			"id": "3cb53201-e807-9509-0a2e-34399907668e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/php-jwt-rest-authentication/login.php",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1643017370420,
+			"name": "http://localhost/php-jwt-rest-authentication/login.php",
+			"description": "",
+			"collectionId": "afbee162-ff15-bafd-abac-810366678d7c",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\" : \"roy\",\n\t\"password\" :  \"roy\"\n}"
+		}
+	]
+}
